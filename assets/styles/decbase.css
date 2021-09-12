@@ -417,3 +417,83 @@ footer .footer p {
 
   font-size: 0.9rem;
 }
+
+@media (min-width: 1366px) {
+  /* HEADER */
+  .container {
+    max-width: 1120px;
+  }
+
+  header .container button {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  header nav a {
+    color: #646464;
+    text-transform: uppercase;
+  }
+
+  header nav a:last-child {
+    color: #fff;
+    background: #caa892;
+    border-radius: 15px 0px;
+  }
+
+  /* BANNER */
+  .section-banner {
+    height: 75vh;
+    background-image: url(../img/bg-fundo.svg);
+    background-repeat: no-repeat;
+    background-position-x: -1.2rem !important;
+    background-position-y: 485px !important;
+
+    padding-top: 4rem;
+  }
+
+  .section-banner .container {
+    flex-direction: row;
+  }
+
+  .section-banner .container .card-image {
+    order: 2;
+    height: 426px !important;
+  }
+
+  .section-banner .container .card-image img {
+    margin-left: -2rem;
+    margin-top: -2rem;
+  }
+
+  .section-banner .container .describe {
+    order: 1;
+    margin-right: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section-banner .container .describe h1 {
+    width: 80%;
+    font-size: 3.8rem;
+    line-height: 4rem;
+
+    margin-bottom: 2rem;
+  }
+
+  .section-banner .container .describe a {
+    width: 200px;
+  }
+
+  /* SERVICES */
+  .section-service .title h1 {
+    font-size: 48px;
+  }
+  .section-service .container .service-items {
+    flex-direction: row;
+  }
+}
