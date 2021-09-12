@@ -16,7 +16,7 @@ body {
 }
 
 .container .title span {
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   color: #646464;
 }
@@ -45,4 +45,15 @@ body {
 
   margin-top: -0.5rem;
   margin-left: -0.5rem;
+}
+
+.container .btns a {
+  display: flex;
+  color: #caa892;
+
+  text-decoration: none;
+}
+
+.container .btns a + a {
+  margin-left: 1rem;
 }
