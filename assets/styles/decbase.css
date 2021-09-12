@@ -236,8 +236,62 @@ header nav a {
   padding: 3rem 0;
 }
 
+.clients-item {
+  margin-top: 6rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-item .item-client {
+  box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+  border-radius: 70px 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.clients-item .item-client + .item-client {
+  margin-top: 3rem;
+}
+
+.clients-item .item-client span {
+  display: none;
+}
+
+.clients-item .item-client h2 {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.clients-item .item-client h2 small {
+  font-weight: 300;
+}
+
+.clients-item .item-client p {
+  padding: 0 2rem 2rem 1rem;
+  font-size: 0.8rem;
+}
+
+.clients-item .item-client img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  margin-top: -2rem;
+
+  border: 3px solid #caa892;
+}
+
 .section-clients .title {
   text-align: center;
+}
+
+.section-clients .title h2 {
 }
 
 .section-clients .btns {
