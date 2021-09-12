@@ -3,9 +3,11 @@
   padding: 0;
 }
 
+html,
 body {
   font-family: Poppins;
   font-weight: 300;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -13,6 +15,6 @@ body {
   margin: 0 auto;
 }
 
-.container img {
-  width: 40%;
+main .container img {
+  width: 10px;
 }

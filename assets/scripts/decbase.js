@@ -20,4 +20,17 @@ $(function () {
       },
     },
   });
+
+  // $(".btn-menu").click(function () {
+  //   $("nav").toggle(".active");
+  // });
+
+  let btn = document.querySelector(".btn-menu");
+  let menu = document.querySelector("header nav");
+
+  btn.addEventListener("click", function () {
+    menu.classList.toggle("active");
+
+    console.log(menu);
+  });
 });

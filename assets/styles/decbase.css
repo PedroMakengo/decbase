@@ -1,0 +1,125 @@
+header {
+  height: 15vh;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+header .container button {
+  width: 50px;
+  height: 2rem;
+
+  border: 0;
+  background: #caa892;
+  color: #fff;
+
+  box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  width: 120px;
+}
+
+header nav {
+  display: none;
+}
+
+header nav.active {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  right: 0;
+
+  width: 50%;
+  height: 100vh;
+  background: #caa892;
+
+  display: block;
+}
+
+header nav a {
+  display: flex;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+
+  text-decoration: none;
+  font-weight: 400;
+}
+
+/* SECTION BANNER */
+
+.section-banner {
+  background-image: url(../img/bg-fundo.svg);
+  background-repeat: no-repeat;
+  background-position-x: -5rem;
+  background-position-y: 33.5rem;
+}
+
+.section-banner .container {
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 5rem;
+}
+
+.section-banner .container .card-image {
+  order: 1;
+  border: 2px solid #caa892;
+  border-radius: 50px 0px;
+
+  margin-top: 3rem;
+
+  width: 95%;
+  margin: 3rem auto;
+
+  height: 220px;
+}
+
+.section-banner .container .card-image img {
+  width: 100%;
+  height: 220px;
+  border-radius: 50px 0px;
+
+  margin-top: -0.5rem;
+  margin-left: -0.5rem;
+}
+
+.section-banner .container .describe {
+  order: 2;
+}
+
+.section-banner .container .describe span {
+  font-weight: 300;
+  text-transform: uppercase;
+
+  color: #646464;
+}
+
+.section-banner .container .describe h1 {
+  color: #212121;
+}
+
+.section-banner .container .describe a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 2.5rem;
+
+  background: #37806b;
+  color: #fff;
+
+  border-radius: 20px 0px;
+
+  margin-top: 1rem;
+
+  text-decoration: none;
+
+  font-weight: 400;
+}
