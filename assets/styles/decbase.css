@@ -57,52 +57,22 @@ header nav a {
 .section-banner {
   background-image: url(../img/bg-fundo.svg);
   background-repeat: no-repeat;
-  background-position-x: -5rem;
-  background-position-y: 33.5rem;
+  background-position-x: -5.2rem;
+  background-position-y: 530px;
 }
 
 .section-banner .container {
   display: flex;
   flex-direction: column;
-
-  padding-bottom: 5rem;
 }
 
 .section-banner .container .card-image {
   order: 1;
-  border: 2px solid #caa892;
-  border-radius: 50px 0px;
-
-  margin-top: 3rem;
-
-  width: 95%;
-  margin: 3rem auto;
-
-  height: 220px;
-}
-
-.section-banner .container .card-image img {
-  width: 100%;
-  height: 220px;
-  border-radius: 50px 0px;
-
-  margin-top: -0.5rem;
-  margin-left: -0.5rem;
 }
 
 .section-banner .container .describe {
   order: 2;
-}
-
-.section-banner .container .describe span {
-  font-weight: 300;
-  text-transform: uppercase;
-
-  color: #646464;
-}
-
-.section-banner .container .describe h1 {
-  color: #212121;
+  padding-bottom: 8rem;
 }
 
 .section-banner .container .describe a {
@@ -122,4 +92,99 @@ header nav a {
   text-decoration: none;
 
   font-weight: 400;
+}
+
+/* SECTION SERVICES */
+.section-service {
+  padding-top: 1rem;
+}
+
+.section-service .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.section-service .container .btns {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.section-service .container .btns a {
+  display: flex;
+  color: #caa892;
+
+  text-decoration: none;
+}
+
+.section-service .container .btns a + a {
+  margin-left: 1rem;
+}
+
+.section-service .container .service-items {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 2rem;
+}
+
+.service-items .card-service {
+  background: #ffffff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+  border-radius: 60px 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem 2rem;
+}
+
+.service-items .card-service:nth-child(2) {
+  color: #fff !important;
+}
+
+.service-items .card-service h2 {
+  font-size: 1rem;
+}
+
+.service-items .card-service p {
+  font-size: 0.9rem;
+}
+
+.service-items .card-service + .card-service {
+  margin-top: 1rem;
+}
+
+.service-items .card-service img {
+  width: 15%;
+  margin-bottom: 1rem;
+}
+
+/* SECTION ABOUT */
+.section-about-us .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.section-about-us .card-image {
+  order: 2;
+}
+
+.section-about-us .card-image img {
+  width: 100%;
+}
+
+.section-about-us .describe-about {
+  order: 1;
+}
+
+.section-about-us .title {
+  margin-bottom: 1rem;
+}
+
+.section-about-us .title p {
+  font-size: 0.9rem;
 }
