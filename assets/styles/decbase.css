@@ -298,3 +298,9 @@ header nav a {
   display: flex;
   float: right;
 }
+
+/* BLOG */
+.section-from-blog {
+  padding: 2rem 0;
+  background-color: #f8f8f8;
+}
