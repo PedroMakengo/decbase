@@ -551,9 +551,35 @@ footer .footer p {
     margin-top: -2rem !important;
   }
 
-  /* CLIENTS */
+  /*  */
+
+  .section-completed {
+    display: flex;
+  }
+
+  .section-completed .title h1 {
+    font-size: 46px;
+    text-align: center;
+
+    width: 725px;
+  }
+  .section-completed .cards {
+    display: flex;
+    flex-wrap: nowrap !important;
+    flex-direction: row;
+  }
+
+  .section-completed .cards div + div {
+    margin-left: 2rem;
+  }
+
+  /* SECTION CLIENTS */
   .section-clients .clients-item {
     flex-direction: row;
+  }
+
+  .section-clients h1 {
+    font-size: 48px;
   }
 
   .section-clients .clients-item .item-client {
