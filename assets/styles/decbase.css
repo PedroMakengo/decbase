@@ -76,25 +76,6 @@ header nav a {
   padding-bottom: 8rem;
 }
 
-.section-banner .container .describe a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  height: 2.8rem;
-
-  background: #37806b;
-  color: #fff;
-
-  border-radius: 20px 0px;
-
-  margin-top: 1rem;
-
-  text-decoration: none;
-
-  font-weight: 400;
-}
-
 /* SECTION SERVICES */
 .section-service {
   padding-top: 1rem;
@@ -132,6 +113,7 @@ header nav a {
 
 .service-items .card-service:nth-child(2) {
   color: #fff !important;
+  background-color: #caa892;
 }
 
 .service-items .card-service h2 {
@@ -313,22 +295,6 @@ header nav a {
   color: #646464;
 }
 
-.section-from-blog .card-blog a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: #37806b;
-  border-radius: 25px 0px;
-
-  text-decoration: none;
-  height: 2.8rem;
-
-  color: #fff;
-
-  text-transform: uppercase;
-}
-
 .section-from-blog .card-image {
   height: 230px;
 }
@@ -419,6 +385,10 @@ footer .footer p {
 }
 
 @media (min-width: 1366px) {
+  /* BUTTON */
+  .button {
+    width: 200px;
+  }
   /* HEADER */
   .container {
     max-width: 1120px;
@@ -485,15 +455,112 @@ footer .footer p {
     margin-bottom: 2rem;
   }
 
-  .section-banner .container .describe a {
-    width: 200px;
-  }
-
   /* SERVICES */
   .section-service .title h1 {
     font-size: 48px;
   }
+
   .section-service .container .service-items {
     flex-direction: row;
+  }
+
+  .section-service .container .service-items .card-service {
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 0;
+    padding: 1.5rem;
+  }
+
+  .section-service .container .service-items .card-service img {
+    margin-right: 2rem;
+  }
+
+  .section-service .container .service-items .card-service + .card-service {
+    margin-left: 2rem;
+  }
+
+  /* SECTION ABOUT */
+  .section-about-us .container {
+    flex-direction: row;
+    margin-top: 8rem;
+  }
+
+  .section-about-us .container .card-image {
+    order: 1;
+    width: 50%;
+    height: 530px;
+  }
+
+  .section-about-us .container .card-image img {
+    margin-left: 2rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .section-about-us .describe-about {
+    width: 60%;
+    margin-left: 8rem;
+  }
+
+  .section-about-us .describe-about h1 {
+    font-size: 2.3rem;
+    width: 420px;
+  }
+
+  .section-about-us .describe-about a {
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+
+  /* SECTION SUCCESSUFULL */
+  .section-successful .container {
+    display: flex;
+
+    padding: 6rem 0;
+  }
+
+  .section-successful .container .describe-successful {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .section-successful .container .describe-successful h1 {
+    font-size: 12rem;
+  }
+
+  .section-successful .container .describe-successful h2 {
+    margin-top: 3rem;
+
+    font-size: 2rem;
+    width: 330px;
+
+    color: #212121;
+  }
+
+  .section-successful .container .card-image {
+    width: 45%;
+    height: 530px;
+  }
+
+  .section-successful .container .card-image img {
+    width: 100%;
+    margin-left: -2rem !important;
+    margin-top: -2rem !important;
+  }
+
+  /* CLIENTS */
+  .section-clients .clients-item {
+    flex-direction: row;
+  }
+
+  .section-clients .clients-item .item-client {
+    margin-top: 0;
+  }
+
+  .section-clients .clients-item .item-client + .item-client {
+    margin-left: 2rem;
   }
 }
