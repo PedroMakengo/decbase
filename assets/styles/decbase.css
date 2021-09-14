@@ -589,4 +589,17 @@ footer .footer p {
   .section-clients .clients-item .item-client + .item-client {
     margin-left: 2rem;
   }
+
+  footer .items-footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer .items-footer .item-footer {
+    width: 40%;
+  }
+
+  footer .items-footer .item-footer h2 {
+    margin-bottom: 2rem;
+  }
 }
