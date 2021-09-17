@@ -551,29 +551,36 @@ footer .footer p {
     margin-top: -2rem !important;
   }
 
-  /*  */
-
   .section-completed {
-    display: flex;
+    padding: 2rem 0;
+    height: auto;
   }
 
-  .section-completed .title h1 {
-    font-size: 46px;
-    text-align: center;
+  .section-completed .title {
+    font-size: 28px;
+    width: 700px;
 
-    width: 725px;
+    margin: 0 auto;
   }
+
   .section-completed .cards {
     display: flex;
     flex-wrap: nowrap !important;
-    flex-direction: row;
+    margin-top: 2rem !important;
+
+    padding-bottom: 3rem;
   }
 
-  .section-completed .cards div + div {
-    margin-left: 2rem;
+  .section-completed .cards .card-completed {
+    width: 25%;
+  }
+
+  .card-completed + .card-completed {
+    margin-left: 1rem;
   }
 
   /* SECTION CLIENTS */
+
   .section-clients .clients-item {
     flex-direction: row;
   }
@@ -590,6 +597,10 @@ footer .footer p {
     margin-left: 2rem;
   }
 
+  footer {
+    height: 40vh;
+  }
+
   footer .items-footer {
     display: flex;
     flex-direction: row;
@@ -601,5 +612,10 @@ footer .footer p {
 
   footer .items-footer .item-footer h2 {
     margin-bottom: 2rem;
+  }
+
+  .footer {
+    /* padding-bottom: 0 !important; */
+    clear: both;
   }
 }
