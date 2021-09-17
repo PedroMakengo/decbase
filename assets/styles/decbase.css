@@ -597,8 +597,42 @@ footer .footer p {
     margin-left: 2rem;
   }
 
+  /* SECTION-FROM-BLOG */
+  .section-from-blog .title h1 {
+    font-size: 48px;
+  }
+
+  .section-from-blog .item-blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .section-from-blog .item-blogs .card-blog {
+    width: 45%;
+  }
+
+  .section-from-blog .item-blogs .card-blog .card-img {
+    height: 220px;
+  }
+
+  .section-from-blog .item-blogs .card-blog + .card-blog {
+    margin-left: 5rem;
+  }
+
+  /* SECTION-SIGN-UP */
+  .section-sign-up .title h1 {
+    font-size: 48px;
+  }
+
+  .section-sign-up form {
+    width: 60%;
+
+    margin: 2rem auto;
+  }
+  /* FOOTER */
   footer {
-    height: 40vh;
+    height: 50vh;
   }
 
   footer .items-footer {
